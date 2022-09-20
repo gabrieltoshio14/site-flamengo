@@ -1,0 +1,39 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+
+.cabecalho {
+  background-color: red;
+}
+
+.logoFlamengo {
+  width: 50px;
+  margin: 15px 15px;
+}
+
+.logoAdidas {
+  width: 80px;
+}
+
+.buttons {
+  display: flex;
+  align-items: center;
+  justify-content: right;
+  gap: 15px;
+  padding-top: 20px;
+}
+
+.botao-texto {
+  font-size: 20px;
+  color: red;
+  background-color: black;
+  border: white 2px solid;
+  border-radius: 5px;
+  transform: 0.4s;
+}
+
+.botao-texto:hover {
+  border: 5px;
+}
